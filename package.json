@@ -1,12 +1,12 @@
 {
-  "name": "Vite_vanilla-app-template",
+  "name": "CoffeJoy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tate-t.github.io/Vite_vanilla-app-template/",
+  "homepage": "https://drhouseua.github.io/coffe-joy-project/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Vite_vanilla-app-template/",
+    "build": "vite build --base=/coffe-joy-project/",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"

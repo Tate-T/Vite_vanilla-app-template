@@ -1,0 +1,154 @@
+.experience-thumb {
+  position: relative;
+  border-radius: 32px;
+}
+
+.section-experience {
+  background-color: rgba(224, 203, 180, 1);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* #region Mobile */
+.section-experience {
+  background-color: #e0cbb4;
+  padding: 64px 16px;
+}
+
+.section-experience .container {
+  min-width: 288px;
+  max-width: 374px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.experience-title {
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #0b0803;
+}
+
+.experience-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0b0803;
+}
+
+.experience-img {
+  width: 288px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* #endregion */
+
+/* #region Tablet */
+
+@media only screen and (min-width: 768px) {
+  .section-experience {
+    padding: 64px 32px;
+  }
+
+  .section-experience .container {
+    max-width: 704px;
+    gap: 32px;
+  }
+
+  .experience-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .experience-item {
+    flex-shrink: 0;
+  }
+
+  .experience-item:nth-child(1),
+  .experience-item:nth-child(2),
+  .experience-item:nth-child(5),
+  .experience-item:nth-child(6) {
+    width: 336px;
+    height: 336px;
+  }
+
+  .experience-item:nth-child(3),
+  .experience-item:nth-child(4) {
+    width: 336px;
+    height: 189px;
+  }
+
+  .experience-item:nth-child(7) {
+    width: 704px;
+    height: 391px;
+  }
+
+  .experience-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* #endregion */
+
+/* # region Desktop */
+
+@media only screen and (min-width: 1440px) {
+  .experience-list {
+    height: 948px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .experience-list:last-child {
+    margin-bottom: 84px;
+  }
+
+  .section-experience .container {
+    max-width: 1312px;
+  }
+
+  .experience-item img {
+    width: 416px;
+  }
+
+  .experience-item:nth-child(1),
+  .experience-item:nth-child(2),
+  .experience-item:nth-child(5),
+  .experience-item:nth-child(6),
+  .experience-item:nth-child(7) {
+    width: 416px;
+    height: 416px;
+  }
+
+  .experience-item:nth-child(3),
+  .experience-item:nth-child(4) {
+    width: 416px;
+    height: 234px;
+  }
+}

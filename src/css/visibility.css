@@ -1,0 +1,47 @@
+/* THIS JUST TECHNICAL FILE FOR COMFORT VISUAL COMPARE */
+
+#experience,
+#hero,
+#location,
+#subscribe,
+#testimonials,
+#welcome,
+#quality {
+  display: none;
+}
+
+.header,
+.subscribe-section,
+.location {
+  display: none;
+}
+
+/* #hero, #location, #subscribe, #testimonials, #welcome, #quality */
+
+@media only screen and (min-width: 320px) and (max-width: 374.98px) {
+  #experience {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768.98px) {
+  #experience {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  #experience {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  #experience {
+    display: block;
+  }
+}
+
+#experience {
+  display: block;
+}

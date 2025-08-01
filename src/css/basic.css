@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    max-width: 375px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+    max-width: 704px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 1312px;
+    max-width: 1312px;
+  }
+}

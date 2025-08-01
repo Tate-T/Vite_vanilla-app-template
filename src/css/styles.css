@@ -5,7 +5,18 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./basic.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./welcome.css');
+@import url('./quality.css');
+@import url('./experience.css');
+@import url('./subscribe.css');
+@import url('./testimonials.css');
+@import url('./location.css');
+@import url('./footer.css');
+@import url('./mobile-menu.css');
+@import url('./visibility.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
